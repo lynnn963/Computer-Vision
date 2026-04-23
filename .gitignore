@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+*/venv/
+*/.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project outputs
+outputs/
+*/outputs/
+runs/
+savedModels/
+log/
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets and generated assets
+data/
+*/data/
+dataset/images/
+dataset/images_resized/
+X_RAY/dataset/chexpert/CheXpert-v1.0-small/train/
+X_RAY/dataset/chexpert/CheXpert-v1.0-small/valid/
+
+# Existing project-specific artifacts
+nohup.out
+ROC Curves/
+heatmap_output/
+bounding_box_images/
+outputs_logs/
+images/
+chexpert/
+
+# Legacy reference project kept locally only
+X_RAY/
