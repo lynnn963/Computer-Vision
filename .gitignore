@@ -25,32 +25,24 @@ env/
 Thumbs.db
 .DS_Store
 
-# Project outputs
-outputs/
-*/outputs/
-runs/
-savedModels/
-log/
+# Model weights (too large for git — reproduce via training)
 *.pt
 *.pth
 *.ckpt
 
-# Large datasets and generated assets
+# Directories that only exist in other contexts
+runs/
+savedModels/
+log/
+
+# Large datasets
 data/
 */data/
-dataset/images/
-dataset/images_resized/
-X_RAY/dataset/chexpert/CheXpert-v1.0-small/train/
-X_RAY/dataset/chexpert/CheXpert-v1.0-small/valid/
 
-# Existing project-specific artifacts
+# Artifacts from removed subproject
 nohup.out
 ROC Curves/
 heatmap_output/
 bounding_box_images/
 outputs_logs/
-images/
 chexpert/
-
-# Legacy reference project kept locally only
-X_RAY/
